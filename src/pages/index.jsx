@@ -23,7 +23,7 @@ export default function Home() {
 					/>
 					Tailwiwnd Starter
 				</h1>
-				<div className="prose prose-invert prose-a:text-blue-300">
+				<div className="prose prose-invert prose-a:text-sky-400">
 					<p>This starter comes configured with:</p>
 					<ul>
 						<li>Next.js 12</li>
@@ -70,7 +70,7 @@ export default function Home() {
 				</div>
 				<Link
 					href="https://github.com/Psypher1/nextjs-13-tailwind-starter"
-					className="block text-blue-500 text-center text-xl hover:underline transition duration-300"
+					className="block text-cyan-400 text-center font-semibold text-xl hover:underline transition duration-300"
 				>
 					Link to the reposiory
 				</Link>

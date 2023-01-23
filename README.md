@@ -14,7 +14,7 @@ This starter consists of:
 ## 🏗️ To Use This Start
 
 ```bash
-npx create-next-app your-app-name -e https://github.com/Psypher1/nextjs-tailwindcss-starter
+npx create-next-app your-app-name -e https://github.com/Psypher1/nextjs-13-tailwind-starter
 ```
 
 ### Change Directiory & Run Dev Server
