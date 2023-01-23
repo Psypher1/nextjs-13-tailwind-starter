@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className=" container mx-auto min-h-screen p-20 space-y-12">
-				<h1 className="flex items-center justify-center  gap-4 text-center text-4xl font-semibold ">
+				<h1 className="flex items-center justify-center  gap-4 text-center text-4xl font-bold ">
 					<Image
 						className="logo"
 						src="/next.svg"
@@ -22,8 +22,8 @@ export default function Home() {
 						priority
 					/>
 					Tailwiwnd Starter
-				</h1>{" "}
-				<div className="prose prose-invert">
+				</h1>
+				<div className="prose prose-invert prose-a:text-blue-300">
 					<p>This starter comes configured with:</p>
 					<ul>
 						<li>Next.js 12</li>
@@ -31,8 +31,9 @@ export default function Home() {
 						<li>Tailwind CSS</li>
 						<li>Tailwind Typography</li>
 					</ul>
+					<Link href="/about">A page using next-seo</Link>
 				</div>
-				<div className="prose prose-invert">
+				<div className="prose prose-invert mb-16">
 					<h2 className="text-2xl">Some things when you clone this starter:</h2>
 
 					<ul className="list-disc list-inside">
@@ -67,7 +68,12 @@ export default function Home() {
 						</li>
 					</ul>
 				</div>
-				<Link href="/">a link to the reposiory</Link>
+				<Link
+					href="https://github.com/Psypher1/nextjs-13-tailwind-starter"
+					className="block text-blue-500 text-center text-xl hover:underline transition duration-300"
+				>
+					Link to the reposiory
+				</Link>
 			</main>
 		</>
 	);

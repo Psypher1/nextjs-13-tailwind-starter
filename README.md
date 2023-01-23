@@ -9,7 +9,7 @@ This starter consists of:
   - Tailwind Typography
 - [next-seo](https://github.com/garmeeh/next-seo)
 
-## Deplyed Url: [Nextjs 13 Tailwind Starter](https://next12-tailwind-starter.vercel.app/)
+## Deplyed Url: [Nextjs 13 Tailwind Starter](https://next13-tailwind-starter.vercel.app/)
 
 ## 🏗️ To Use This Start
 
