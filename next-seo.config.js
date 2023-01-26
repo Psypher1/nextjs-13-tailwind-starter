@@ -9,15 +9,15 @@ export default {
 		site_name: "Nextjs 13 Tailwind Stater",
 		images: [
 			{
-				url: "https://your-site-url/og-image.png",
+				url: "/og-image.png",
 				width: 1024,
 				height: 485,
 				alt: "",
 			},
 			{
 				url: "https://your-site-url/og-image-2.png",
-				width: 1024,
-				height: 462,
+				width: 1353,
+				height: 608,
 				alt: "",
 			},
 		],
