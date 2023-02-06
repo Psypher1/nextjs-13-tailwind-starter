@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@next/font': 13.1.4
   '@tailwindcss/typography': ^0.5.9
   autoprefixer: ^10.4.13
   eslint: 8.32.0
@@ -14,7 +13,6 @@ specifiers:
   tailwindcss: ^3.2.4
 
 dependencies:
-  '@next/font': 13.1.4
   eslint: 8.32.0
   eslint-config-next: 13.1.4_eslint@8.32.0
   next: 13.1.4_biqbaboplfbrettd7655fr4n2y
@@ -82,10 +80,6 @@ packages:
     resolution: {integrity: sha512-a/T30+7Q1scom5t3L+wEBkYzCa+bhT/3DTxzxlNy4Xckw2InzcckQGeIi/larDgh5r2fSSJswhYAZEcKtuJiig==}
     dependencies:
       glob: 7.1.7
-    dev: false
-
-  /@next/font/13.1.4:
-    resolution: {integrity: sha512-NfqQPAIFJhssdaZEsP0MADZKN+tc040jOkNKVlDZHtVjJWBJSgbe8UHg3w0S6YuQr7PHc0ACbFeVCBQeG4MEvg==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.1.4:

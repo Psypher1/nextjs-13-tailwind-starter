@@ -23,7 +23,7 @@ export default function Home() {
 					/>
 					Tailwiwnd Starter
 				</h1>
-				<div className="prose prose-invert prose-a:text-sky-400">
+				<div className="mb-6 prose prose-invert prose-a:text-sky-400">
 					<p>This starter comes configured with:</p>
 					<ul>
 						<li>Next.js 12</li>
@@ -33,6 +33,15 @@ export default function Home() {
 					</ul>
 					<Link href="/about">A page using next-seo</Link>
 				</div>
+				<div className="mb-16 prose prose-invert prose-code:text-cyan-600 ">
+					<h3>To start using the starter right away run</h3>
+
+					<code>
+						npx create-next-app your-app-name -e
+						https://github.com/Psypher1/nextjs-13-tailwind-starter
+					</code>
+				</div>
+
 				<div className="prose prose-invert mb-16">
 					<h2 className="text-2xl">Some things when you clone this starter:</h2>
 
